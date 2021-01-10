@@ -1,4 +1,4 @@
-#### *sesh-thunderball-users*
+#### *sesh-thunderball-users
 ---
 ## Users controller
 

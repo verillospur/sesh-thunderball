@@ -17,6 +17,20 @@
 // 
 'use strict';
 
+/**
+ *   Generates and returns unique id based on RFC4122 (uuid v4)
+ *   Removes "-" characters.
+ *   Optional numberic only generation.
+ *   
+ *   Useage:
+ *       const gen = require('whatever');
+ *       const newId = gen.generate()
+ *   
+ *    Numeric only id:
+ *       const newId = gen.generate(true);
+ *   
+ * @param  {Boolean} numericOnly
+ */
 const generator = (numericOnly) => {
     
     // generate RFC4122 uuid
@@ -67,4 +81,4 @@ const generator = (numericOnly) => {
 
 module.exports = {
     generate: generator
-}
+};

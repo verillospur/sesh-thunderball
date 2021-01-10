@@ -1,0 +1,34 @@
+{
+  "name": "sesh-thunderball",
+  "version": "1.0.0",
+  "description": "Thunderball controller for SeshScience",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "mongodb": "^3.6.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verillospur/sesh-thunderball.git"
+  },
+  "keywords": [
+    "sesh",
+    "seshscience",
+    "thunderball",
+    "tball"
+  ],
+  "author": "Ben Sturley <bensturley@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verillospur/sesh-thunderball/issues"
+  },
+  "homepage": "https://github.com/verillospur/sesh-thunderball#readme"
+}

@@ -20,16 +20,42 @@
 		"prefix": "jshead",
 		"body": [
 			"// ",
-			"//  filename.js ",
-			"//  ~/path/ ",
+			"//  $0filename.js",
+			"//  ~/path/",
 			"// ",
-			"//  created:    01/01/2021 ",
+			"//  created:    2021-01-10",
 			"// ",
-			"//  basic description ",
+			"//  basic description",
 			"// ",
 			"'use strict';",
 			"",
-			"$0"
+			"const fn = () => {",
+			"",
+			"};",
+			"",
+			"module.exports = {",
+			"  fn: fn",
+			"};",
+			""
+
+
+		],
+		"description": "Standard file header for JS files"
+	},
+	"JS Test File Header": {
+		"scope": "javascript",
+		"prefix": "jsthead",
+		"body": [
+			"// ",
+			"//  test--filename.js ",
+			"//  ~/tests/path/ ",
+			"// ",
+			"//  created:    05/01/2021 ",
+			"// ",
+			"//  test for: $0",
+			"// ",
+			"'use strict';",
+			""
 		],
 		"description": "Standard file header for JS files"
 	}
